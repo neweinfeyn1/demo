@@ -1,20 +1,13 @@
 #include <stdio.h>
-void test_even(int x);
 
-void test_even(int val)
+
+ struct car
 {
+   int miles;
+   char *name;
 
-  if (val%2 == 0)
-{
-   printf("%d is even",val);
-}
 
-else
-{
-printf("%d is not even",val);
-}
-
-}
+};
 
 
 
@@ -26,8 +19,9 @@ int main()
 
 {
 
-printf ("hello\n");
-test_even(8);
+struct car Honda={200,"Hondalicious"};
+
+printf("%d\n", Honda.miles);
 
 return 0;
 }
