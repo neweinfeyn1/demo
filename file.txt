@@ -1,2 +1,3 @@
 sh.exe": l: command not found
 lovelace is a cool name.
+i just got added
